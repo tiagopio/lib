@@ -1,0 +1,92 @@
+site_name: LIB
+site_url: https://mydomain.org/mysite
+
+nav:
+  - Bem vindo: 'index.md'
+  - Blog:
+      - 'blog/2024.md'
+  - Iniciando na OBI/Maratona:
+      - 'start/intro.md'
+      - 'start/cpp.md'
+      - 'start/stl.md'
+      - 'start/complexity.md'
+      - 'start/greedy.md'
+      - 'start/twopointers.md'
+      - 'start/prefixsum.md'
+      - 'start/binarysearch.md'
+      - 'start/bitmanipulation.md'
+      - 'start/graphsdfs.md'
+      - 'start/bfs.md'
+      - 'start/dijkstra.md'
+      - 'start/dsukruskal.md'
+      - 'start/dp.md'
+      - 'start/fenwick.md'
+      - 'start/segtree.md'
+  - LIB:
+    - 'Graphs':
+      - 'library/graphs/bfs.md'
+  - Sites:
+      - 'sites/codeforces.md'
+      - 'sites/atcoder.md'
+      - 'sites/cses.md'
+      - 'sites/usaco.md'
+      - 'sites/cpalgo.md'
+        
+  - Membros: 'members.md'
+
+theme:
+  name: material
+  logo: assets/logo.jpg
+  favicon: assets/favicon.ico
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: blue grey
+      accent: deep purple
+
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: grey
+      accent: deep purple
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+
+repo_url: https://github.com/tiagopio/facesavio
+repo_name: ufg_monkeys/monkeyslib
+
+extra:
+  social:
+    - icon: simple/github
+      link: https://github.com/tiagopio
+    - icon: simple/instagram
+      link: https://instagram.com/ufg_monkeys
+    - icon: simple/linkedin
+      link: https://linkedin.com/ufg_monkeys
+
