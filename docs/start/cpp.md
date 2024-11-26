@@ -1,6 +1,5 @@
-<<<<<<< HEAD
 # C++
-=======
+
 # C++
 
 Este conteúdo tem o intuito de apresentar uma introdução à linguagem C++, a principal linguagem utilizada em programação competitiva.
@@ -38,4 +37,3 @@ Para mais informações:
 
 - C++ reference: <https://en.cppreference.com/w/>
 - cplusplus.com: <https://cplusplus.com/>
->>>>>>> a183dc8 (cpp)
