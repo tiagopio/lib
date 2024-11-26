@@ -1,7 +1,5 @@
 # C++
 
-# C++
-
 Este conteúdo tem o intuito de apresentar uma introdução à linguagem C++, a principal linguagem utilizada em programação competitiva.
 
 ## Por que C++?
