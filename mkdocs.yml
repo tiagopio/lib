@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 site_name: LIB
 site_url: https://mydomain.org/mysite
 
@@ -183,5 +182,3 @@ extra:
       link: https://instagram.com/ufg_monkeys
     - icon: simple/linkedin
       link: https://linkedin.com/ufg_monkeys
-
->>>>>>> a183dc8 (cpp)
