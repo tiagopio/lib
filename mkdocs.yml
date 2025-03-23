@@ -18,18 +18,18 @@ nav:
       - 'start/binarysearch.md'
       - 'start/bitmanipulation.md'
       - 'start/dp.md'
+      - 'Grafos':
+        - 'start/Graphs/introducao.md'
+        - 'Busca':
+          - 'start/Graphs/dfs.md'
+          - 'start/Graphs/bfs.md'
+        - 'Caminho Minimo':
+          - 'start/Graphs/bellmanford.md'
+          - 'start/Graphs/floydwarshall.md'
+          - 'start/Graphs/dijkstra.md'
       - 'start/dsukruskal.md'
       - 'start/fenwick.md'
       - 'start/segtree.md'
-      - 'Graphs':
-        - 'start/Grafos/introducao.md'
-        - 'Busca':
-          - 'start/Grafos/dfs.md'
-          - 'start/Grafos/bfs.md'
-        - 'Caminho Minimo':
-          - 'start/Grafos/bellmanford.md'
-          - 'start/Grafos/floydwarshall.md'
-          - 'start/Grafos/dijkstra.md'
 
   - LIB:
     - 'Graphs':
