@@ -97,25 +97,3 @@ extra:
       link: https://instagram.com/ufg_monkeys
     - icon: simple/linkedin
       link: https://linkedin.com/ufg_monkeys
-
-plugins:
-  - glightbox:
-      touchNavigation: true
-      loop: false
-      effect: zoom
-      slide_effect: slide
-      width: auto
-      height: auto
-      zoomable: true
-      draggable: true
-      auto_caption: false
-      caption_position: bottom
-      background: white
-      shadow: true
-      manual: false
-  - blog:
-      archive_date_format: MMMM yyyy
-      categories_allowed:
-        - Holidays
-        - News
-  - tags
