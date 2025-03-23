@@ -1,35 +1,35 @@
 # Bem vindo
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+<figure markdown="span">
+  ![Image title](assets/tmp_logo.png){ width="1000" }
+</figure>
 
-## Commands
+## Monkeys UFG
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+Bem-vindo ao site do Grupo de Programação Competitiva da Universidade Federal de Goiás (UFG)!
 
-## Project layout
+Este site tem como objetivo ser um guia para estudantes interessados em participar de competições de programação, como a [Olimpíada Brasileira de Informática (OBI)](https://olimpiada.ic.unicamp.br/) e a [Maratona SBC de Programação](https://maratona.sbc.org.br/). Aqui, você encontrará uma coleção de artigos elaborados por nossos membros, além de diversas referências para o aprendizado dos tópicos mais relevantes da programação competitiva.
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## Seções do Site:
 
-# Bem vindo
+**Blog**: Fique por dentro das novidades, conquistas e eventos do grupo Monkeys.
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+**Iniciando na OBI/Maratona**: Um guia completo para estudantes que querem começar a participar das competições de programação!
 
-## Commands
+**LIB**: Biblioteca com implementações de algoritmos utilizadas pelo grupo Monkeys.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+**Sites**: Conheça os principais sites para programação competitiva e como aproveitá-los ao máximo.
 
-## Project layout
+**Membros**: Conheça os integrantes do grupo Monkeys e suas contribuições.
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## Dúvidas?
+Se você tiver alguma dúvida, não hesite em entrar em contato conosco!
+
+Na UFG: Laboratório 252 - INF
+
+Online:
+
+[![Discord](https://img.shields.io/badge/Discord-7289DA?style=flat&logo=discord&logoColor=white)](link_do_discord)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=flat&logo=instagram&logoColor=white)](link_do_instagram)
+
+

@@ -4,6 +4,7 @@ site_url: https://mydomain.org/mysite
 nav:
   - Bem vindo: 'index.md'
   - Blog:
+      - 'blog/2025.md'
       - 'blog/2024.md'
   - Iniciando na OBI/Maratona:
       - 'start/intro.md'
@@ -36,10 +37,12 @@ nav:
   - Membros: 'members.md'
 
 theme:
+  language: pt-BR
   name: material
   logo: assets/logo.jpg
   favicon: assets/favicon.ico
   icon:
+    annotation: material/arrow-right-circle
     repo: fontawesome/brands/github
   palette:
     # Dark Mode
@@ -59,7 +62,6 @@ theme:
       accent: deep purple
 
 markdown_extensions:
-  - attr_list
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
@@ -79,6 +81,10 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - tables
+  - attr_list
+  - md_in_html
+  - pymdownx.superfences
+  - pymdownx.blocks.caption
 
 repo_url: https://github.com/tiagopio/facesavio
 repo_name: ufg_monkeys/monkeyslib
@@ -91,3 +97,25 @@ extra:
       link: https://instagram.com/ufg_monkeys
     - icon: simple/linkedin
       link: https://linkedin.com/ufg_monkeys
+
+plugins:
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      effect: zoom
+      slide_effect: slide
+      width: auto
+      height: auto
+      zoomable: true
+      draggable: true
+      auto_caption: false
+      caption_position: bottom
+      background: white
+      shadow: true
+      manual: false
+  - blog:
+      archive_date_format: MMMM yyyy
+      categories_allowed:
+        - Holidays
+        - News
+  - tags

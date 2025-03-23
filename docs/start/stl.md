@@ -74,3 +74,6 @@ Em cada um dos links abaixo, você encontra referências que ensinam a utilizar 
 - ``swap``: <https://www.geeksforgeeks.org/swap-in-cpp/>
 
 ## Lista de Exercícios:
+
+- [CSES - Distinct Numbers](https://cses.fi/problemset/task/1621)  
+
