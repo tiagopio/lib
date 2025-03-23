@@ -27,9 +27,11 @@ W3Schools C++ Tutorial: <https://www.w3schools.com/cpp/default.asp>
 
 - ``C++ Tutorial``, com exceção das seções ``C++ Enums``, ``C++ References`` e ``C++ Pointers``.
 - ``C++ Functions``, sem exceções.
-- ``C++ Data Structures``, sem exceções.
+- ``C++ How To``, sem exceções.
 
 As seções não mencionadas podem ser ignoradas.
+
+## Lista de Exercícios:
 
 Para mais informações: 
 
