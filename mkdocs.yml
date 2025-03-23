@@ -18,12 +18,19 @@ nav:
       - 'start/binarysearch.md'
       - 'start/bitmanipulation.md'
       - 'start/dp.md'
-      - 'start/graphsdfs.md'
-      - 'start/bfs.md'
-      - 'start/dijkstra.md'
       - 'start/dsukruskal.md'
       - 'start/fenwick.md'
       - 'start/segtree.md'
+      - 'Graphs':
+        - 'start/Grafos/introducao.md'
+        - 'Busca':
+          - 'start/Grafos/dfs.md'
+          - 'start/Grafos/bfs.md'
+        - 'Caminho Minimo':
+          - 'start/Grafos/bellmanford.md'
+          - 'start/Grafos/floydwarshall.md'
+          - 'start/Grafos/dijkstra.md'
+
   - LIB:
     - 'Graphs':
       - 'library/graphs/bfs.md'
@@ -98,3 +105,5 @@ extra:
     - icon: simple/linkedin
       link: https://linkedin.com/ufg_monkeys
 
+plugins:
+  - glightbox
