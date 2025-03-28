@@ -35,7 +35,7 @@ As seções não mencionadas podem ser ignoradas.
 
 - [AtCoder - Doors in the Center](https://atcoder.jp/contests/abc398/tasks/abc398_a)
 - [AtCoder - Thermometer](https://atcoder.jp/contests/abc397/tasks/abc397_a)
-- [AtCoder - A - Triple Four](https://atcoder.jp/contests/abc396/tasks/abc396_a)
+- [AtCoder - Triple Four](https://atcoder.jp/contests/abc396/tasks/abc396_a)
 - [CSES - Weird Algorithm](https://cses.fi/problemset/task/1068)
 - [CSES - Missing Number](https://cses.fi/problemset/task/1083)
 - [CSES - Repetitions](https://cses.fi/problemset/task/1069)

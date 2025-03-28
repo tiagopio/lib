@@ -16,7 +16,7 @@ Este site tem como objetivo ser um guia para estudantes interessados em particip
 
 **Iniciando na OBI/Maratona**: Um guia completo para estudantes que querem começar a participar das competições de programação!
 
-**LIB**: Biblioteca com implementações de algoritmos utilizadas pelo grupo Monkeys.
+**Biblioteca**: Biblioteca com implementações de algoritmos utilizadas pelo grupo Monkeys.
 
 **Sites**: Conheça os principais sites para programação competitiva e como aproveitá-los ao máximo.
 

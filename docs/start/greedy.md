@@ -1,1 +1,1 @@
-# Algoritmo Guloso (greedy)
+# Algoritmo Guloso

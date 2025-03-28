@@ -4,8 +4,7 @@ site_url: https://mydomain.org/mysite
 nav:
   - Bem vindo: 'index.md'
   - Blog:
-      - 'blog/2025.md'
-      - 'blog/2024.md'
+      - 'blog/index.md'
   - Iniciando na OBI/Maratona:
       - 'start/intro.md'
       - 'start/cpp.md'
@@ -19,19 +18,19 @@ nav:
       - 'start/bitmanipulation.md'
       - 'start/dp.md'
       - 'Grafos':
-        - 'start/Graphs/introducao.md'
+        - 'start/graphs/introducao.md'
         - 'Busca':
-          - 'start/Graphs/dfs.md'
-          - 'start/Graphs/bfs.md'
+          - 'start/graphs/dfs.md'
+          - 'start/graphs/bfs.md'
         - 'Caminho Minimo':
-          - 'start/Graphs/bellmanford.md'
-          - 'start/Graphs/floydwarshall.md'
-          - 'start/Graphs/dijkstra.md'
+          - 'start/graphs/bellmanford.md'
+          - 'start/graphs/floydwarshall.md'
+          - 'start/graphs/dijkstra.md'
       - 'start/dsukruskal.md'
       - 'start/fenwick.md'
       - 'start/segtree.md'
 
-  - LIB:
+  - Biblioteca:
     - 'Graphs':
       - 'library/graphs/bfs.md'
   - Sites:
@@ -46,7 +45,7 @@ nav:
 theme:
   language: pt-BR
   name: material
-  logo: assets/logo.jpg
+  logo: assets/transparent_logo.png
   favicon: assets/favicon.ico
   icon:
     annotation: material/arrow-right-circle
@@ -57,7 +56,7 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Dark mode
-      primary: blue grey
+      primary: blue
       accent: deep purple
 
     # Light Mode
@@ -65,8 +64,13 @@ theme:
       toggle:
         icon: material/weather-night
         name: Light mode
-      primary: grey
+      primary: blue
       accent: deep purple
+  features:
+    - navigation.tabs
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.indexes
 
 markdown_extensions:
   - pymdownx.emoji:
@@ -108,3 +112,5 @@ extra:
 plugins:
   - search
   - glightbox
+  - blog:
+      blog_dir: blog
