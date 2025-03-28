@@ -98,12 +98,13 @@ repo_name: ufg_monkeys/monkeyslib
 
 extra:
   social:
-    - icon: simple/github
+    - icon: fontawesome/brands/github
       link: https://github.com/tiagopio
-    - icon: simple/instagram
+    - icon: fontawesome/brands/instagram
       link: https://instagram.com/ufg_monkeys
-    - icon: simple/linkedin
+    - icon: fontawesome/brands/linkedin
       link: https://linkedin.com/ufg_monkeys
 
 plugins:
+  - search
   - glightbox
