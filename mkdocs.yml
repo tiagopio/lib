@@ -16,17 +16,24 @@ nav:
       - 'start/prefixsum.md'
       - 'start/binarysearch.md'
       - 'start/bitmanipulation.md'
-      - 'start/dp.md'
-      - 'Grafos':
-        - 'start/graphs/introducao.md'
+      - 'Grafos: Introdução':
+        - 'start/graphs_intro/introducao.md'
         - 'Busca':
-          - 'start/graphs/dfs.md'
-          - 'start/graphs/bfs.md'
+          - 'start/graphs_intro/dfs.md'
+          - 'start/graphs_intro/bfs.md'
         - 'Caminho Minimo':
-          - 'start/graphs/bellmanford.md'
-          - 'start/graphs/floydwarshall.md'
-          - 'start/graphs/dijkstra.md'
-      - 'start/dsukruskal.md'
+          - 'start/graphs_intro/bellmanford.md'
+          - 'start/graphs_intro/floydwarshall.md'
+          - 'start/graphs_intro/dijkstra.md'
+      - 'start/numbertheory.md'
+      - 'start/geometry.md'
+      - 'Programação Dinâmica':
+        - 'start/dp/intro.md'
+        - 'start/dp/knapsack.md'
+        - 'start/dp/paths.md'
+        - 'start/dp/lcs.md'
+      - 'Grafos':
+        - 'start/graphs_advanced/dsu.md'
       - 'start/fenwick.md'
       - 'start/segtree.md'
 
@@ -114,3 +121,9 @@ plugins:
   - glightbox
   - blog:
       blog_dir: blog
+      categories_allowed:
+        - Contests
+        - test
+      post_url_format: "{slug}"
+  - tags:
+      tags_file: tags.md
