@@ -103,9 +103,10 @@ markdown_extensions:
   - md_in_html
   - pymdownx.superfences
   - pymdownx.blocks.caption
-
-repo_url: https://github.com/tiagopio/facesavio
-repo_name: ufg_monkeys/monkeyslib
+  - pymdownx.arithmatex:
+      generic: true
+repo_url: https://github.com/Monkeys-UFG/website
+repo_name: Monkeys-UFG/website
 
 extra:
   social:
@@ -127,3 +128,7 @@ plugins:
       post_url_format: "{slug}"
   - tags:
       tags_file: tags.md
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
