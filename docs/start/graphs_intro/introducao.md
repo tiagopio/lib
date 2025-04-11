@@ -3,7 +3,25 @@
 Essa seção tem o intuito de apresentar uma introdução à Teoria dos Grafos.
 
 ## Definição
-Um grafo é uma estrutura representada por um par ordenado G = (V, E), em que V é o conjunto de vértices e E é o c:onjunto de arestas.
+Um grafo é uma estrutura representada por um par ordenado $G = (V, E)$, em que $V$ é o conjunto de vértices 
+e $E$ é o conjunto de arestas.
+
+
+<center> 
+    ![Exemplo de Grafo](../../images/graphs/simple_graph.png)
+</center>
+
+$$
+    V = \{A, B, C, D\}
+$$
+
+$$
+    E = \{
+            (A, B), (A, C),
+            (B, C), (B, D),
+            (C, D)
+        \}
+$$
 
 !!!note "Exemplo"
     ``` mermaid
@@ -19,7 +37,9 @@ Um grafo é uma estrutura representada por um par ordenado G = (V, E), em que V 
 
 
 ## Grafos Direcionados
-Um grafo direcionado ou orientado é um grafo em que suas arestas possuem um sentido. Se um par (U,V) pertence ao conjunto E de arestas, então existe um caminho de U para V, mas não necessariamente existe um caminho de V para U.
+Um grafo direcionado ou orientado é um grafo em que suas arestas possuem um sentido.
+Se um par $(U,V)$ pertence ao conjunto $E$ de arestas, então existe um caminho de $U$ para $V$,
+mas não necessariamente existe um caminho de $V$ para $U$.
 
 !!!tip "Representação das arestas"
     No grafo direcionado, as arestas geralmente são representadas por setas. 
