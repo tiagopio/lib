@@ -6,9 +6,31 @@ Essa seção tem o intuito de apresentar uma introdução à Teoria dos Grafos.
 Um grafo é uma estrutura representada por um par ordenado $G = (V, E)$, em que $V$ é o conjunto de vértices 
 e $E$ é o conjunto de arestas.
 
-
+Grafo desenhado no excalidraw
 <center> 
     ![Exemplo de Grafo](../../images/graphs/simple_graph.png)
+</center>
+
+Grafo feito no Overleaf (Linhas normais - finas)
+<center> 
+    ![Exemplo de Grafo](../../images/graphs/overleaf_fino.png)
+</center>
+
+Grafo feito no Overleaf(Linhas grossas)
+<center> 
+    ![Exemplo de Grafo](../../images/graphs/overleaf_grosso.png)
+</center>
+
+Grafo feito no Overleaf(Fundo Cinza)
+<center> 
+    ![Exemplo de Grafo](../../images/graphs/overleaf_cinza.png)
+</center>
+
+<br><br><br>
+Minha opiniao:
+Grafo feito no Overleaf (Linhas normais - finas)
+<center> 
+    ![Exemplo de Grafo](../../images/graphs/overleaf_fino.png)
 </center>
 
 $$
@@ -22,19 +44,6 @@ $$
             (C, D)
         \}
 $$
-
-!!!note "Exemplo"
-    ``` mermaid
-    graph LR
-    A --- B
-    B --- C
-    C --- D
-    D --- C
-    B --- D
-    ```
-    O grafo é formado pelo conjunto de vértices V = {A, B, C, D} e pelo conjunto de arestas E = {(A,B), (B,C), (C,D), (D,C), (B,D)}.
-
-
 
 ## Grafos Direcionados
 Um grafo direcionado ou orientado é um grafo em que suas arestas possuem um sentido.
