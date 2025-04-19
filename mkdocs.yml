@@ -18,13 +18,15 @@ nav:
       - 'start/bitmanipulation.md'
       - 'Grafos: Introdução':
         - 'start/graphs_intro/introducao.md'
+        - 'start/graphs_intro/classes.md'
+        - 'start/graphs_intro/representacao.md'
         - 'Busca':
-          - 'start/graphs_intro/dfs.md'
-          - 'start/graphs_intro/bfs.md'
+          - 'start/graphs_intro/busca/dfs.md'
+          - 'start/graphs_intro/busca/bfs.md'
         - 'Caminho Minimo':
-          - 'start/graphs_intro/bellmanford.md'
-          - 'start/graphs_intro/floydwarshall.md'
-          - 'start/graphs_intro/dijkstra.md'
+          - 'start/graphs_intro/caminho_minimo/bellmanford.md'
+          - 'start/graphs_intro/caminho_minimo/floydwarshall.md'
+          - 'start/graphs_intro/caminho_minimo/dijkstra.md'
       - 'start/numbertheory.md'
       - 'start/geometry.md'
       - 'Programação Dinâmica':

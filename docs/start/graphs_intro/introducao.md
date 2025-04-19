@@ -2,35 +2,13 @@
 
 Essa seção tem o intuito de apresentar uma introdução à Teoria dos Grafos.
 
+
 ## Definição
-Um grafo é uma estrutura representada por um par ordenado $G = (V, E)$, em que $V$ é o conjunto de vértices 
-e $E$ é o conjunto de arestas.
+Um grafo é uma estrutura representada por um par ordenado $G = (V, E)$, em que $V$ é o conjunto de vértices e $E$ é o conjunto de arestas. Eles podem ser utilizados para representar relações entre os vértices, através do uso das arestas. Por exemplo, os vértices podem ser vistos como cidades e as arestas como estradas, em que a aresta $(U,V)$ existe se há uma estrada entre as cidades $U$ e $V$.
 
-Grafo desenhado no excalidraw
+Os exemplos dessa seção serão baseados no seguinte grafo:
 <center> 
-    ![Exemplo de Grafo](../../images/graphs/simple_graph.png)
-</center>
-
-Grafo feito no Overleaf (Linhas normais - finas)
-<center> 
-    ![Exemplo de Grafo](../../images/graphs/overleaf_fino.png)
-</center>
-
-Grafo feito no Overleaf(Linhas grossas)
-<center> 
-    ![Exemplo de Grafo](../../images/graphs/overleaf_grosso.png)
-</center>
-
-Grafo feito no Overleaf(Fundo Cinza)
-<center> 
-    ![Exemplo de Grafo](../../images/graphs/overleaf_cinza.png)
-</center>
-
-<br><br><br>
-Minha opiniao:
-Grafo feito no Overleaf (Linhas normais - finas)
-<center> 
-    ![Exemplo de Grafo](../../images/graphs/overleaf_fino.png)
+    ![Grafo de exemplo](../../images/graphs/undirected_graph.png)
 </center>
 
 $$
@@ -45,86 +23,37 @@ $$
         \}
 $$
 
-## Grafos Direcionados
-Um grafo direcionado ou orientado é um grafo em que suas arestas possuem um sentido.
-Se um par $(U,V)$ pertence ao conjunto $E$ de arestas, então existe um caminho de $U$ para $V$,
-mas não necessariamente existe um caminho de $V$ para $U$.
+## Vizinhança
+Definimos a vizinhança $N$ de um vértice $V$ como o conjunto de vértices que estão ligados diretamente a $V$ através de uma aresta.
+Em grafos direcionados, se temos a aresta $(U,V)$, então $V\in N(U)$ e $U\notin N(V)$.  
 
-!!!tip "Representação das arestas"
-    No grafo direcionado, as arestas geralmente são representadas por setas. 
+$$
+N(V) = \{U | (V,U) \in E\}
+$$
 
-!!!note "Exemplo"
-    ``` mermaid
-    graph LR
-    A --> B
-    B --> C
-    C --> D
-    D --> C
-    B --> D
-    ```
-    No grafo acima, o conjunto de arestas é E = {(A,B), (B,C), (C,D), (D,C), (B,D)}.
-    <br>
-    A aresta (B,D) existe, porém não há um caminho que saia do vértice D e chegue ao vértice B.
+$$
+\begin{aligned}
+&N(A) = \{B,C\} \\
+&N(B) = \{A,C,D\} \\
+&N(C) = \{A,B,D\} \\
+&N(D) = \{B,C\} 
+\end{aligned}
+$$
 
-## Grafo Ponderado
-Um grafo ponderado é um grafo que cada aresta possui um peso, ou seja, um valor. Os pesos podem representar problemas, como custo ou distância entre os vértices.
+## Grau
+O grau de um vértice $V$ é o número de arestas que incidem em $V$. Se existe uma aresta que liga um vértice nele mesmo (loops), ela conta duas vezes em seu grau. 
+Em grafos direcionados, temos dois tipos de grau: de entrada e saida, que representam, respectivamente,
+o número de arestas que entram e saem no vértice.
 
-!!!note "Exemplo"
-    ``` mermaid
-    graph LR
+$$
+    Deg(V) = |N(V)| + loops
+$$
 
-    A --- |1| B
-    B --- |2| C
-    C --- |3| D
-    D --- |4| C
-    B --- |2| D
-
-    linkStyle default font-size:16px, background:transparent;
-    ```
-    Podemos pensar nos pesos de cada aresta como sendo a distância daquela rota entre os vértices. Por exemplo, entre os vértices C e D existe uma rota de tamanho 3 e outra rota de tamanho 4.
-
-## Árvore
-Uma árvore é um tipo de grafo geralmente utilizado para representar uma hierarquia entre os vértices. O vértice mais acima é chamado de Raiz, e a altura de cada vértice representa a sua distância até a raiz. Um vértice que não tem filhos é chamado de Folha.
-<br>
-
-
-!!!note
-    ``` mermaid
-    graph 
-    A --- B
-    B --- C
-    B --- D
-    A --- E
-    E --- F
-    ```
-    Árvore cuja raiz é o vertice A, e as folhas são os vértices C, D e F.
-
-    !!!info
-        <pre>
-        As principais características de uma árvore são: 
-        - Um vértice pode ter vários filhos, porém tem um único pai. 
-        - Possui exatamente N-1 arestas, sendo N o número de vértices. 
-        - Existe apenas um caminho entre dois vértices. 
-        - Não apresenta ciclos
-        </pre>
-
-
-!!!failure "Cuidado"
-    ``` mermaid
-    graph 
-    A --- B
-    B --- C
-    B --- D
-    A --- E
-    E --- F
-    B --- F
-    ```
-    <pre>
-    O grafo acima não é uma arvore por alguns motivos:
-    - O número de vertices é 6, porém temos 6 arestas em vez de 5. 
-    - O vértice F apresenta dois pais: os vértices B e E.
-    - Existe mais de um caminho entre os vértices B e F:
-        Caminho 1) B->F
-        Caminho 2) B->A->E->F
-    - O grafo apresenta um ciclo: B -> A -> E -> F -> B 
-    </pre>
+$$
+\begin{aligned}
+&Deg(A) = 2 \\
+&Deg(B) = 3 \\
+&Deg(C) = 3 \\
+&Deg(D) = 2 
+\end{aligned}
+$$
