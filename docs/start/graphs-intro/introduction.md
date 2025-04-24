@@ -7,9 +7,9 @@ Essa seção tem o intuito de apresentar uma introdução à Teoria dos Grafos.
 Um grafo é uma estrutura representada por um par ordenado $G = (V, E)$, em que $V$ é o conjunto de vértices e $E$ é o conjunto de arestas. Eles podem ser utilizados para representar relações entre os vértices, através do uso das arestas. Por exemplo, os vértices podem ser vistos como cidades e as arestas como estradas, em que a aresta $(U,V)$ existe se há uma estrada entre as cidades $U$ e $V$.
 
 Os exemplos dessa seção serão baseados no seguinte grafo:
-<center> 
-    ![Grafo de exemplo](../../images/graphs/undirected_graph.png)
-</center>
+<figure markdown="span" class="graphs"> 
+    ![Grafo de exemplo](../../assets/graphs/undirected_graph.png)
+</figure>
 
 $$
     V = \{A, B, C, D\}

@@ -1,0 +1,3 @@
+body[data-md-color-scheme="slate"] figure.graphs {
+    filter: invert(0.9)
+}
