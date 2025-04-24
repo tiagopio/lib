@@ -17,16 +17,16 @@ nav:
       - 'start/binarysearch.md'
       - 'start/bitmanipulation.md'
       - 'Grafos: Introdução':
-        - 'start/graphs_intro/introducao.md'
-        - 'start/graphs_intro/classes.md'
-        - 'start/graphs_intro/representacao.md'
+        - 'start/graphs-intro/introduction.md'
+        - 'start/graphs-intro/classes.md'
+        - 'start/graphs-intro/representation.md'
         - 'Busca':
-          - 'start/graphs_intro/busca/dfs.md'
-          - 'start/graphs_intro/busca/bfs.md'
+          - 'start/graphs-intro/search/dfs.md'
+          - 'start/graphs-intro/search/bfs.md'
         - 'Caminho Minimo':
-          - 'start/graphs_intro/caminho_minimo/bellmanford.md'
-          - 'start/graphs_intro/caminho_minimo/floydwarshall.md'
-          - 'start/graphs_intro/caminho_minimo/dijkstra.md'
+          - 'start/graphs-intro/min-path/bellmanford.md'
+          - 'start/graphs-intro/min-path/floydwarshall.md'
+          - 'start/graphs-intro/min-path/dijkstra.md'
       - 'start/numbertheory.md'
       - 'start/geometry.md'
       - 'Programação Dinâmica':
@@ -35,7 +35,7 @@ nav:
         - 'start/dp/paths.md'
         - 'start/dp/lcs.md'
       - 'Grafos':
-        - 'start/graphs_advanced/dsu.md'
+        - 'start/graphs-advanced/dsu.md'
       - 'start/fenwick.md'
       - 'start/segtree.md'
 
@@ -142,3 +142,6 @@ plugins:
 extra_javascript:
   - javascripts/mathjax.js
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
+extra_css:
+  - stylesheets/extra.css

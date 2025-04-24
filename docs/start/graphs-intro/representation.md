@@ -2,9 +2,9 @@
 
 Nessa seção veremos maneiras de representar um grafo em código.
 Os exemplos serão baseados no seguinte grafo:
-<center> 
-    ![Grafo de exemplo](../../images/graphs/undirected_graph.png)
-</center>
+<figure markdown="span" class="graphs"> 
+    ![Grafo de exemplo](../../assets/graphs/undirected_graph.png)
+</figure>
 
 ## Matriz de Adjacência
 Representamos o grafo como uma matriz $M$ de dimensão $N*N$, sendo $N$ o número de vértices. Podemos
@@ -18,9 +18,9 @@ M[U][V] = \begin{cases}
 \end{cases}
 $$
 
-<center> 
-    ![Matriz de Adjacência](../../images/graphs/matriz_adj.png)
-</center>
+<figure markdown="span" class="graphs"> 
+    ![Matriz de Adjacência](../../assets/graphs/adj_matrix.png)
+</figure>
 Exemplo da matriz de Adjacência do grafo desenhado anteriormente.
 
 ## Lista de Adjacência
@@ -28,7 +28,7 @@ Para todo vértice $U$ do grafo, fazemos uma estrutura que armazena todo vértic
 na vizinhança de $U$. A complexidade de tempo para determinar se existe uma aresta entre os vértices $U$ e $V$ dependerá
 da estrutura utilizada. Em grafos esparsos, a memória utilizada é consideravelmente menor do que em matrizes de adjacencia.
 
-<center> 
-    ![Lista de Adjacência](../../images/graphs/lista_adj.png)
-</center>
+<figure markdown="span" class="graphs"> 
+    ![Lista de Adjacência](../../assets/graphs/adj_list.png)
+</figure>
 Exemplo da lista de Adjacência do grafo desenhado anteriormente.
