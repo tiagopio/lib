@@ -1,5 +1,9 @@
 # Busca Binária
 
+### Simulando o algoritmo
+
+aqui temos o image slider
+
 <div class="slider-wrapper">
   <!-- área de slides -->
   <div class="slides-container">
@@ -12,7 +16,7 @@
       <div class="caption">Legenda 2</div>
     </div>
     <div class="image-sliderfade fade">
-      <img src="../../assets/tmp_logo.png" />
+      <img src="../../assets/transparent_logo.png" />
       <div class="caption">Legenda 3</div>
     </div>
   </div>
@@ -27,6 +31,11 @@
     <button class="ctrl next" onclick="plusSlides(1)">❯</button>
   </div>
 </div>
+<br>
+
+## OLA
+
+ele parece estar funcionando
 
 
 
