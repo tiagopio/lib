@@ -8,5 +8,6 @@ pip install -r requirements.txt
 
 ## init
 ```bash
+source mkdocs-env/bin/activate
 mkdocs serve
 ```
