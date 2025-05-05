@@ -134,6 +134,9 @@ plugins:
 extra_javascript:
   - javascripts/mathjax.js
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+  - javascripts/slider.js
+  - https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js
 
 extra_css:
   - stylesheets/extra.css
+  - stylesheets/slider.css

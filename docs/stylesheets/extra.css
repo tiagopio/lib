@@ -1,3 +1,20 @@
 body[data-md-color-scheme="slate"] figure.graphs {
-    filter: invert(0.9)
+  filter: invert(0.9)
+}
+
+figure.left-caption {
+  text-align: left;
+  margin: 1em 0;
+}
+  
+figure.left-caption figcaption {
+  font-size: 0.9em;
+  color: #5c5a5a;
+  margin: 0
+}
+
+body[data-md-color-scheme="slate"] figure.left-caption figcaption {
+  font-size: 0.9em;
+  color: #d4d3d3;
+  margin: 0  
 }

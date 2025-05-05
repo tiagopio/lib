@@ -2,7 +2,10 @@
 
 ## Aula Relacionada recomendada:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/beHruxE8D0M?si=gQICcS7_hceNuraj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<figure markdown="span" class="left-caption">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/beHruxE8D0M?si=gQICcS7_hceNuraj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <figcaption>Cŕeditos: Canal Maratona UFMG.</figcaption>
+</figure>
 
 ## Conhecendo a STL:
 A **Standard Template Library** (STL) do C++ é um conjunto de classes e funções baseadas em templates que implementam estruturas de dados e algoritmos amplamente utilizados, como listas, pilhas, vetores, ordenação, busca, entre outros. Além disso, ela disponibiliza iteradores e functors, o que simplifica o uso e a integração de algoritmos com os containers.
