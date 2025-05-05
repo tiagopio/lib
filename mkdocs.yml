@@ -122,6 +122,14 @@ extra:
 plugins:
   - search
   - glightbox
+  - git-revision-date-localized:
+      enable_creation_date: true
+      enabled: true
+      locale: pt
+  - git-committers:
+      repository: Monkeys-UFG/website
+      branch: main
+      enabled: true
   - blog:
       blog_dir: blog
       categories_allowed:
