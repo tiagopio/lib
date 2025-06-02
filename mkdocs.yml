@@ -60,7 +60,7 @@ theme:
     annotation: material/arrow-right-circle
     repo: fontawesome/brands/github
   palette:
-    # Dark Mode
+    # Dark Mode
     - scheme: slate
       toggle:
         icon: material/weather-sunny
@@ -80,6 +80,8 @@ theme:
     - navigation.instant
     - navigation.instant.prefetch
     - navigation.indexes
+    - content.code.copy
+    - content.tooltips
 
 markdown_extensions:
   - pymdownx.emoji:
@@ -138,4 +140,4 @@ extra_javascript:
 
 extra_css:
   - stylesheets/extra.css
-  - stylesheets/slider.css
+  - stylesheets/slider.css  
