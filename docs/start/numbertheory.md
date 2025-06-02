@@ -190,17 +190,54 @@ void crivo() {
 ## Algoritmo de Euclides
 
 ### Máximo Divisor Comum (MDC ou GCD)
-O máximo divisor comum de dois números $a$ e $b$, $gcd(a,b)$, é o maior número que divide tanto $a$ quanto $b$. Por exemplo, $gcd(24,36) = 12$.
+O máximo divisor comum de dois números $a$ e $b$, $\gcd(a,b)$, é o maior número que divide tanto $a$ quanto $b$. Por exemplo, $\gcd(24,36) = 12$.
 
 
 ### Mínimo múltiplo comum (MMC ou LCM)
 O mínimo múltiplo comum de dois números $a$ e $b$, $lcm(a,b)$, é o menor número que é divisível tanto por $a$ quanto por $b$. Por exemplo, $lcm(24,36) = 72.$
 
-O gcd e o lcm possuem a seguinte propriedade:
+O $\gcd$ e o $lcm$ possuem a seguinte propriedade:
 
 $$
-    lcm(a,b) = \frac{ab}{gcd(a,b)}
+    lcm(a,b) = \frac{ab}{\gcd(a,b)}
 $$
 
 ## Euclides
-O algoritmo de euclides é uma maneira eficiente de calcular
+O algoritmo de euclides é uma maneira eficiente de calcular o $\gcd$ de dois números. O algoritmo é baseado na seguinte fórmula:
+
+$$
+\gcd(a,b) = 
+\begin{cases}
+a, & \text{se } b = 0 \\
+\gcd(b, a \bmod b), & \text{se } b \neq 0 
+\end{cases}
+$$
+
+Por exemplo, $\gcd(24,36) = \gcd(36, 24) = \gcd(24,12) = \gcd(12,0) = 12$.
+
+```cpp title="gcd.cpp" linenums="1"
+int gcd(int a, int b){
+    if(b==0) return a;
+    return gcd(b, b%a);
+}
+```
+O algoritmo de Euclides funciona em tempo $O(\log n)$, em que $n = \min(a,b)$. O pior caso do algoritmo é quando $a$ e $b$ são números consecutivos de $Fibonacci$. Por exemplo, $\gcd(13,8) = \gcd(8,5) = \gcd(3,2) = \gcd(2,1) = \gcd(1,0) = 1$.
+
+
+## Função totiente de Euler
+Números $a$ e $b$ são coprimos se $\gcd(a,b) = 1$. A função totiente de Euler $\varphi(n)$ calcula a quantidade de números coprimos com $n$ de $1$ até $n$. Por exemplo, $\varphi(12) = 4$, por que $1, 5, 7$ e $11$ são coprimos com $12$.
+
+O valor de $\varphi(n)$ pode ser calculado pela fatoração em primos de $n$ usando a formula:
+
+$$
+\varphi(n) = \prod_{i=1}^{k} (p_i^{\alpha_i - 1} \cdot (p_i - 1))
+$$
+
+Por exemplo, $\varphi(12) = 2^1 \cdot (2-1) \cdot 3^0 \cdot (3-1) = 4$. Note que $\varphi(n) = n-1$ se $n$ é primo.
+
+
+## Aritmética modular
+ 
+Na aritmética modular, o conjunto de números é limitado para apenas $0, 1, 2, \cdots, m-1$, em que $m$ é uma constante. Cada número $x$ é representado pelo número $x \bmod m$. Por exemplo, se $m = 17$, então $75$ é representado como $75 \bmod 17 = 7$.
+
+Frequentemente podemos 
