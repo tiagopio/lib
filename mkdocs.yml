@@ -80,6 +80,9 @@ theme:
     - navigation.instant
     - navigation.instant.prefetch
     - navigation.indexes
+    - content.code.copy
+    - content.code.select
+    - content.tooltips
 
 markdown_extensions:
   - pymdownx.emoji:
@@ -90,6 +93,7 @@ markdown_extensions:
       line_spans: __span
       pygments_lang_class: true
   - pymdownx.inlinehilite
+  - abbr
   - pymdownx.snippets
   - pymdownx.superfences:
       custom_fences:
@@ -113,7 +117,7 @@ repo_name: Monkeys-UFG/website
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/tiagopio
+      link: https://github.com/Monkeys-UFG/
     - icon: fontawesome/brands/instagram
       link: https://instagram.com/ufg_monkeys
     - icon: fontawesome/brands/linkedin
@@ -143,7 +147,6 @@ extra_javascript:
   - javascripts/mathjax.js
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
   - javascripts/slider.js
-  - https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js
 
 extra_css:
   - stylesheets/extra.css

@@ -39,7 +39,7 @@ Os algortimos mais comuns são:
 Para facilitar nossa pratíca nessa seção utilizaremos esse template simples
 para praticar as estruturas:
 
-```cpp title="template.cpp"
+```cpp title="template.cpp" linenums="1"
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -76,7 +76,7 @@ Em cada um dos links abaixo, você encontra referências que ensinam a utilizar 
 - ``reverse``: <https://www.geeksforgeeks.org/stdreverse-in-c/>
 - ``swap``: <https://www.geeksforgeeks.org/swap-in-cpp/>
 
-## Lista de Exercícios:
+## Problemas recomendados:
 
-- [CSES - Distinct Numbers](https://cses.fi/problemset/task/1621)  
+- [CSES - Distinct Numbers](https://cses.fi/problemset/task/1621)
 

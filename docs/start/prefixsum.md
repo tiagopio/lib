@@ -60,7 +60,7 @@ $$
 ## Código
 Esse código é um exemplo de como implementar a técnica de prefixo para a soma. Assim, podemos calcular o range de \( i \) até \( j \) como:
 
-```cpp
+```cpp title="psum.cpp" linenums="1"
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -226,7 +226,7 @@ $$
 ## Código geral
 Esse código é um exemplo de como implementar a técnica de prefixo para o produto. Para isso, utilizamos o inverso da multiplicação, que é a divisão. Assim, podemos calcular o range de \( i \) até \( j \) como:
 
-```cpp
+```cpp title="solve.cpp" linenums="1"
 #include <bits/stdc++.h>
 using namespace std;
 
