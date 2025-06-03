@@ -57,3 +57,10 @@ $$
 \end{aligned}
 $$
 
+## Grafo Funcional
+É um grafo direcionado em que cada vértice tem grau de saída exatamente igual à 1. 
+Toda componente do grafo apresenta exatamente um ciclo.
+
+<figure markdown="span" class="graphs"> 
+    ![Exemplo de Grafo Ponderado](../../assets/graphs/functional_graph.png)
+</figure>

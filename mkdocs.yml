@@ -60,7 +60,7 @@ theme:
     annotation: material/arrow-right-circle
     repo: fontawesome/brands/github
   palette:
-    # Dark Mode
+    # Dark Mode
     - scheme: slate
       toggle:
         icon: material/weather-sunny
