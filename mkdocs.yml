@@ -81,6 +81,7 @@ theme:
     - navigation.instant.prefetch
     - navigation.indexes
     - content.code.copy
+    - content.code.select
     - content.tooltips
 
 markdown_extensions:
@@ -92,6 +93,7 @@ markdown_extensions:
       line_spans: __span
       pygments_lang_class: true
   - pymdownx.inlinehilite
+  - abbr
   - pymdownx.snippets
   - pymdownx.superfences:
       custom_fences:
@@ -115,7 +117,7 @@ repo_name: Monkeys-UFG/website
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/tiagopio
+      link: https://github.com/Monkeys-UFG/
     - icon: fontawesome/brands/instagram
       link: https://instagram.com/ufg_monkeys
     - icon: fontawesome/brands/linkedin
@@ -124,6 +126,14 @@ extra:
 plugins:
   - search
   - glightbox
+  - git-revision-date-localized:
+      enable_creation_date: true
+      enabled: true
+      locale: pt
+  - git-committers:
+      repository: Monkeys-UFG/website
+      branch: main
+      enabled: true
   - blog:
       blog_dir: blog
       categories_allowed:
@@ -140,4 +150,4 @@ extra_javascript:
 
 extra_css:
   - stylesheets/extra.css
-  - stylesheets/slider.css  
+  - stylesheets/slider.css
